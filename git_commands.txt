@@ -1,0 +1,26 @@
+New folder called SGA2 created and a new .git repository initialized in it. 
+
+Git status used to show the status of the repository and that nothing added to the commit.  
+
+Command "Git add ." used to stage the files in preparation for the commit. First commit successful. The command '"git commit -m "First Commit"' was used. 
+
+Second commit also successful using the 'git -m commit "Second Commit"' command. Changed one file to a .txt file as shown above. The command used was git commit after using "git add ." 
+
+created a new branch called feature. Switched to branch feature from the main branch. command "git branch feature" used to create the new branch and navigated to this branch using "git switch feature" which changed the branch to feature from "Master". 
+
+Files successfully committed from the feature branch after changing it back .html from .txt. Command used was the git add . and git commit. 
+
+Feature branch merged with main branch using "git merge feature" when in the main (master) branch.
+
+Using the git log command all the different commits and the details are now displayed. 
+
+A new file named “.gitignore” file created using the touch command.
+
+Created a “.gitignore" file and added all log files using “*.log” and also added the “downloads” folder. The echo command was used to write the files to the .gitignore file. 
+
+An additional commit has been made using git add . to stage the files followed by git commit -m. This also included the '.gitignore' file which was created. 
+
+The last commit was undone using “git reset –hard” which deleted the entire commit. The reset –hard deletes everything that was done in the last commit, and the git log output shows the history excluding the last commit. 
+
+https://github.com/nagdalearns-ops/SDP- 
+
